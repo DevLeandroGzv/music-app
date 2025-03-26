@@ -47,7 +47,10 @@ class _LoginPageState extends State<LoginPage> {
                 isObscureText: true,
               ),
               const SizedBox(height: 15),
-              AuthGradientButton(nameButton: 'Iniciar sesion',),
+              AuthGradientButton(nameButton: 'Iniciar sesion',
+              onTap:(){
+                
+              } ,),
               const SizedBox(height: 15),
               RichText(
                 text: TextSpan(
